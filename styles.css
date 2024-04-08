@@ -1,0 +1,309 @@
+body {
+    background-color: rgb(52, 52, 52);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#vegalogo {
+    height: 100px;
+    width: 285px;
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+}
+
+#TopBar {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: #3d3d3d;
+}
+
+.dropdown {
+    text-align: center;
+}
+
+.TopMenuButton {
+    height: 50px;
+    width: 70px;
+    text-align: center;
+    border-style: none;
+    background-color: #3d3d3d;
+}
+
+.TopMenuButton:hover {
+    background-color: rgb(52, 52, 52);
+}
+
+.TopMenuSelect {
+    height: 50px;
+    width: 115px;
+    opacity: 1;
+    position: relative;
+    font-family: Arial;
+    transition: 0.3s;
+    text-align: center;
+    border-style: none;
+    background-color: rgb(44, 44, 44);
+}
+
+.TopMenuSelect:hover {
+    background-color: rgb(52, 52, 52);
+}
+
+#TextBox {
+    height: 30px;
+    width: 150px;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    border: dotted;
+    position: absolute;
+    right: 40px;
+    top: 107px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    background-color: rgb(44, 44, 44);
+}
+
+#TextBox:hover {
+    width: 180px;
+}
+
+#EnterButton {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    display: inline-flexbox;
+    border: solid;
+    border-color: yellow;
+    position: absolute;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 5px;
+    right: 40px;
+    opacity: 1;
+    transition: 0.3s;
+    background-color: orangered;
+}
+
+#EnterButton:hover {
+    background-color: rgb(52, 52, 52);
+}
+
+.sec {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Bollywood {
+    height: 30px;
+    width: 150px;
+    font-size: 14px;
+    min-width: 210;
+    font-weight: 600;
+    display: inline-block;
+    padding: 12px 30px 0px 30px;
+    margin: 10px 20px 0px 25px;
+    border-radius: 6px;
+    transition: 0.3s;
+    border: none;
+    border-radius: 15px;
+    background-color: green;
+}
+
+#Bollywood:hover {
+    background-color: rgb(1, 90, 1);
+}
+
+#DualAudio {
+    height: 30px;
+    width: 150px;
+    font-size: 14px;
+    min-width: 210;
+    font-weight: 600;
+    display: inline-block;
+    padding: 12px 30px 0px 30px;
+    margin: 10px 20px 0px 25px;
+    border-radius: 6px;
+    transition: 0.3s;
+    border: none;
+    border-radius: 15px;
+    background-color: blue;
+}
+
+#DualAudio:hover {
+    background-color: rgb(6, 6, 179);
+}
+
+#Hollywood {
+    height: 30px;
+    width: 150px;
+    font-size: 14px;
+    min-width: 210;
+    font-weight: 600;
+    display: inline-block;
+    padding: 12px 30px 0px 30px;
+    margin: 10px 20px 0px 25px;
+    border-radius: 6px;
+    transition: 0.3s;
+    border: none;
+    border-radius: 15px;
+    background-color: red;
+}
+
+#Hollywood:hover {
+    background-color: rgb(185, 9, 9);
+}
+
+#telegram {
+    height: 32px;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    display: block;
+    padding-top: 10px;
+    font-size: 18px;
+    background-color: #009DE1;
+}
+
+.others {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extraBox {
+    height: 60px;
+    width: fit-content;
+    padding: 3px 50px 3px 50px;
+    margin: 10px 20px 10px 20px;
+}
+
+.extraBox button {
+    height: 40px;
+    background-color: #3d3d3d;
+    border: none;
+    font-family: changa, sans-serif;
+    font-weight: 700;
+    border-radius: 2px;
+    padding: 3px 11px;
+    margin: 4px 2px;
+    width: fit-content;
+}
+
+.extraBox button:hover {
+    background-color: rgb(52, 52, 52);
+}
+
+a {
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    margin-left: 50px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    /* Important for vertical align on mobile phones */
+    margin: 0;
+    /* Important for vertical align on mobile phones */
+}
+
+.dropbtn:hover {
+    .dropdown-content {
+        opacity: 0.5;
+    }
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: rgb(52, 52, 52);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(52, 52, 52);
+    min-width: 150px;
+    border: solid;
+    opacity: 0.6;
+    border-radius: 2px;
+    border-width: 1px;
+    box-shadow: 0px 8px 16px 0px rgb(0, 0, 0);
+    z-index: 1;
+}
+
+.dropdown-content:hover {
+    opacity: 0.8;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    border: solid;
+    border-width: 1px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.containt {
+    text-align: center;
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box {
+    height: 360px;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(52, 52, 52);
+    border: 2px solid rgb(44, 44, 44);
+}
+
+.containt img {
+    height: 300px;
+    width: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
